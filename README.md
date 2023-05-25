@@ -10,3 +10,7 @@
 #### 动态输入推理
 
 #### CPU/GPU设备支持
+
+
+#### 参考资料
+- [MNN框架C++和Python API Demo](https://blog.csdn.net/wl1710582732/article/details/107731147)
