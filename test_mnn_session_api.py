@@ -9,7 +9,7 @@ interpreter = MNN.Interpreter("models/mobilenet_v2-b0353104.mnn")
 # 创建session
 config = {}
 config['precision'] = 'high'
-config['backend'] = 'GPU'
+config['backend'] = 'CPU'  # CUDA
 config['thread'] = 4
 session = interpreter.createSession(config)
 

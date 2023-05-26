@@ -7,7 +7,7 @@ vars = F.load_as_dict(mnn_model_path)
 inputVar = vars["input"]
 print('input shape: ', inputVar.shape)
 
-image_path = './test.jpg'
+image_path = 'images/test.jpg'
 input_image = Image.open(image_path)
 preprocess = transforms.Compose([
     transforms.Resize(256),
